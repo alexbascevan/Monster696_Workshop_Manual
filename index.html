@@ -27,6 +27,7 @@
             padding: 15px 40px;
             font-size: 18px;
             margin: 20px;
+            margin-top: 50px;
             border-radius: 5px;
             cursor: pointer;
             transition: background-color 0.3s ease;
@@ -46,6 +47,19 @@
             font-size: 14px;
             color: #888;
         }
+
+        .image {
+            width: 500px;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s ease;
+            margin-top: 20px;
+        }
+
+        .image:hover {
+            transform: scale(1.05);
+        }
+
     </style>
     <script>
         function workshopManual(){
@@ -64,6 +78,8 @@
 
 <body>
     <h1>Ducati Monster 696</h1>
+    <img src="images_idx/696.jpg" class="image">
+    <br>
     <button onclick="workshopManual()">Workshop Manual</button>
     <button onclick="ownersManual()">Owner's Manual (PDF)</button>
     <button onclick="partsCatalogue()">Parts Catalogue</button>
