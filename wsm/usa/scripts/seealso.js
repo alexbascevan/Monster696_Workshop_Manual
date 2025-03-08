@@ -1,6 +1,3 @@
-// Copyright (c) 2002-2003 Quadralay Corporation.  All rights reserved.
-//
-
 function  WebWorksSeeAlso_Object()
 {
   this.mbClickedLink = false;

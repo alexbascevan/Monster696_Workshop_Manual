@@ -3,9 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Workshop Manual</title>
-    <script>
+    <title>Ducati Monster 696</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #111;
+            color: #f0f0f0;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
 
+        h1 {
+            margin-top: 50px;
+            font-size: 3rem;
+            letter-spacing: 2px;
+        }
+
+        button {
+            background-color: #D10000;
+            color: white;
+            border: none;
+            padding: 15px 40px;
+            font-size: 18px;
+            margin: 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #a00000;
+            transform: scale(1.05);
+        }
+
+        button:active {
+            background-color: #800000;
+        }
+
+        footer {
+            margin-top: 50px;
+            font-size: 14px;
+            color: #888;
+        }
+    </style>
+    <script>
         function workshopManual(){
             window.location.href = "wsm/usa/home.html";
         }
@@ -17,14 +59,17 @@
         function partsCatalogue(){
             window.location.href = "https://www.bike-parts-ducati.com/ducati-motorcycle/Monster/2009/Monster_696/60";
         }
-
     </script>
 </head>
 
 <body>
-    <button onclick="workshopManual()">Work Shop Manual</button>
-    <button onclick="ownersManual()">Owners Manual</button>
+    <h1>Ducati Monster 696</h1>
+    <button onclick="workshopManual()">Workshop Manual</button>
+    <button onclick="ownersManual()">Owner's Manual (PDF)</button>
     <button onclick="partsCatalogue()">Parts Catalogue</button>
-</body>
 
+    <footer>
+        Powered by ❤️ Ducati Passion
+    </footer>
+</body>
 </html>

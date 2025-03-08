@@ -1,6 +1,3 @@
-// Copyright (c) 2002-2005 Quadralay Corporation.  All rights reserved.
-//
-
 function  WebWorks_WriteArrow(ParamBaseURL,
                               ParamID,
                               bParamExpanded)
