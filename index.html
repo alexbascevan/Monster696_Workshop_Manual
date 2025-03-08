@@ -15,8 +15,8 @@
         }
 
         h1 {
-            margin-top: 50px;
-            font-size: 3rem;
+            margin-top: 30px;
+            font-size: 2.5rem;
             letter-spacing: 2px;
         }
 
@@ -24,10 +24,10 @@
             background-color: #D10000;
             color: white;
             border: none;
-            padding: 15px 40px;
-            font-size: 18px;
-            margin: 20px;
-            margin-top: 50px;
+            padding: 12px 25px;
+            font-size: 16px;
+            margin: 10px;
+            margin-top: 30px;
             border-radius: 5px;
             cursor: pointer;
             transition: background-color 0.3s ease;
@@ -43,13 +43,15 @@
         }
 
         footer {
-            margin-top: 50px;
+            margin-top: 40px;
             font-size: 14px;
             color: #888;
+            margin-bottom: 20px;
         }
 
         .image {
-            width: 500px;
+            width: 90%;
+            max-width: 500px;
             border-radius: 10px;
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
             transition: transform 0.3s ease;
@@ -62,15 +64,56 @@
 
         .blurb {
             text-align: center;
-            width: 600px;
-            margin: 0 auto; /* This centers the div horizontally */
+            width: 90%;
+            max-width: 600px;
+            margin: 0 auto;
             background-color: #333;
             color: #fff;
             padding: 20px;
             border-radius: 8px;
+            font-size: 1rem;
+            margin-top: 20px;
         }
 
+        /* Media Queries for better responsiveness */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
 
+            button {
+                font-size: 14px;
+                padding: 10px 20px;
+            }
+
+            .image {
+                width: 90%;
+            }
+
+            .blurb {
+                font-size: 0.9rem;
+                width: 90%;
+            }
+
+            footer {
+                font-size: 12px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.5rem;
+            }
+
+            button {
+                font-size: 14px;
+                padding: 8px 18px;
+            }
+
+            .blurb {
+                font-size: 0.85rem;
+            }
+        }
     </style>
     <script>
         function workshopManual(){
@@ -101,9 +144,6 @@
             you’ve found the right spot! From an owner, for owners — here you’ll find all the resources you need to keep your 
             Monster 696 in top shape. Join the community and let's keep our bikes running smoothly!</p>
     </div>
-</div>
-
-    
 
     <footer>
         Powered by ❤️ Ducati Passion
