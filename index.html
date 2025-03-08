@@ -5,11 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Workshop Manual</title>
     <script>
-        // Redirects to the home page when the page loads
-        window.onload = function() {
+
+        function workshopManual(){
             window.location.href = "wsm/usa/home.html";
-        };
+        }
+
+        function ownersManual(){
+
+        }
+
+        function partsCatalogue(){
+            window.location.href = "https://www.bike-parts-ducati.com/ducati-motorcycle/Monster/2009/Monster_696/60";
+        }
+
     </script>
 </head>
+
+<body>
+    <button onclick="workshopManual()">Work Shop Manual</button>
+    <button onclick="ownersManual()">Owners Manual</button>
+    <button onclick="partsCatalogue()">Parts Catalogue</button>
+</body>
 
 </html>
